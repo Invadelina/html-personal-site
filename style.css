@@ -1,0 +1,32 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #FFA3FD, #E384FF, #865DFF);  
+  }
+
+  @keyframes gradient-background {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ .home img
+ {
+    height: 500px;
+    border-radius: 50%;
+    border:solid 7px #E384FF;
+    float: right;
+ }
+
+ .description
+ {
+    font-size: 30px; 
+    color: lightgray;
+    padding: 50px;
+ }
+
